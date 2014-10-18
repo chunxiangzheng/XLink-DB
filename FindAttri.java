@@ -12,9 +12,6 @@ public class FindAttri {
 			System.out.println("java -jar filename");
 		}
 		findAttri("recycled/tmp" + args[0] + "attri","recycled/" + args[1], "recycled/" + args[2]);
-		//findAttri("nmeth.final.attri.tsv", "nmeth.final.tsvUniqueuni", "nmeth.final.tsv");
-		//findAttri("JuanMCPsubmissionattri", "JuanMCPsubmissionUnique","JuanMCPsubmission");
-		//findAttri("123_out","123_unique","123");
 	}
 	public static void findAttri(String output, String listofuniprot, String input) {                //Extract protein id, accession, description and gene name
 		if (input.equals("") || output.equals("") || listofuniprot.equals("")) return;
